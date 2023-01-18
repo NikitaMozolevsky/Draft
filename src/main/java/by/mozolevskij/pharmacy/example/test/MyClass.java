@@ -2,6 +2,8 @@ package by.mozolevskij.pharmacy.example.test;
 
 public class MyClass {
 
+    /**!!!PROJECT_AL2!!!*/
+
     public static int sum(int a, int b) {
         return a+b;
     }

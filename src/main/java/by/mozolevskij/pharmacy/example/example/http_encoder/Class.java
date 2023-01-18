@@ -16,8 +16,8 @@ public class Class {
     static String httpIndex = "0";
 
     public void encoder(String string) {
-        String generatedHttp =
-        map.put()
+        /*String generatedHttp =
+        map.put()*/
     }
 
     public String decoder() {
@@ -28,6 +28,7 @@ public class Class {
         for (int i = 0; i < coderChar.length; i++) {
 
         }
+        return null;
     }
 
     public static void main(String[] args) {

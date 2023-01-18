@@ -18,11 +18,11 @@ public class Main {
 
         DataService dataServiceSpy = Mockito.spy(DataService.class); //можно создавать на основе как класса, так и готового объекта
 
-        DataService dataService = new DataService();
+        /*DataService dataService = new DataService();
         dataServiceSpy = Mockito.spy(dataService);
 
         List<String> data = new ArrayList<>();
         data.add("dataItem");
-        Mockito.when(dataService.getAllData()).thenReturn(data);
+        Mockito.when(dataService.getAllData()).thenReturn(data);*/
     }
 }

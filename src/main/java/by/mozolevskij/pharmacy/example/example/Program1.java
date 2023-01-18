@@ -50,30 +50,4 @@ public class Program1 {
     }
 
 }
- class Person{
 
-    String name;    // имя
-    double age;        // возраст
-
-    /*начало блока инициализатора*/
-    {
-        name = "Undefined";
-        age = 18.4;
-    }
-    /*конец блока инициализатора*/
-    Person(){
-
-    }
-    Person(String name){
-
-        this.name = name;
-    }
-    Person(String name, double age){
-
-        this.name = name;
-        this.age = age;
-    }
-    void displayInfo(){
-        System.out.printf("Name: %s \tAge: %.4f\n", name, age);
-    }
-}

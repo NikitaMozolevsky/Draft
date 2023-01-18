@@ -20,9 +20,6 @@ public class Main {
         System.out.println(list);
         task5();
     }
-    static {
-
-    }
 
     public static void task1() {
 
