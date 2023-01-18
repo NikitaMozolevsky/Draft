@@ -2,6 +2,7 @@ package by.mozolevskij.pharmacy.example.reflection_api;
 
 import by.mozolevskij.pharmacy.example.example.Person;
 
+import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 
 public class ReflectionAPI {
@@ -22,6 +23,8 @@ public class ReflectionAPI {
 
     public static void main(String[] args) throws Exception {
 
+        Person person = new Person("Name", 12);
+
         //способы получения объекта класса
         Class clss = new Person().getClass();
         Class clss2 = Person.class;
@@ -40,6 +43,13 @@ public class ReflectionAPI {
 
         //способ получить приватное и протектед поле класса
         //получение объекта Field c которым можно работать
-        Field field = clss.getDeclaredField("age"); //имя нужного поля
+        Field field = clss.getDeclaredField("age");//имя нужного поля
+        field.setAccessible(true);//установление возможности работы с private/protected полем
+        field.get(person);//теперь можно получить значение этого поля методом get()
+
+        //если у класса нет setter-ов можно сделать и его
+        field.set(person, 23); //учтановление нового значения person.age, хотя у класса
+        //нет сеттеров
+
     }
 }

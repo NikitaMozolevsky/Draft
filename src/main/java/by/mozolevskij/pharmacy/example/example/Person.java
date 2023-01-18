@@ -14,18 +14,18 @@ public class Person {
     public Person() {
     }
 
-    Person(String name) {
+    private Person(String name) {
 
         this.name = name;
     }
 
-    Person(String name, double age) {
+    public Person(String name, double age) {
 
         this.name = name;
         this.age = age;
     }
 
-    void displayInfo() {
+    private void displayInfo() {
         System.out.printf("Name: %s \tAge: %.4f\n", name, age);
     }
 }
