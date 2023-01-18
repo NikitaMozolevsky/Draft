@@ -24,6 +24,7 @@ public class ReflectionAPI {
     public static void main(String[] args) throws Exception {
 
         Person person = new Person("Name", 12);
+        Person person2 = new Person("Name", 12);
 
         //способы получения объекта класса
         Class clss = new Person().getClass();
