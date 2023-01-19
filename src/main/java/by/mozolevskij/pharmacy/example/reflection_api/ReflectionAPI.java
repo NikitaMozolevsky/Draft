@@ -25,6 +25,7 @@ public class ReflectionAPI {
 
         Person person = new Person("Name", 12);
         Person person2 = new Person("Name", 12);
+        Person person3 = new Person("Name", 12);
 
         //способы получения объекта класса
         Class clss = new Person().getClass();
