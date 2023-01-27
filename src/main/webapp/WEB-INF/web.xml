@@ -11,10 +11,6 @@
         <exception-type>java.lang.Throwable</exception-type>
         <location>/pages/error/error_500.jsp</location>
     </error-page>
-    <!--<error-page>
-        <error-code>404</error-code>
-        <location>/pages/error/error_404.jsp</location>
-    </error-page>-->
     <error-page>
         <error-code>500</error-code>
         <location>/pages/error/error_404.jsp</location>
@@ -25,4 +21,31 @@
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
+    <servlet>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <servlet-class>by.mozolevskij.pharmacy.example.learning.session_cookies.servlets.SetCookiesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetCookiesServlet</servlet-name>
+        <url-pattern>/set-cookies</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <servlet-class>by.mozolevskij.pharmacy.example.learning.session_cookies.servlets.GetCookiesServlet
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetCookiesServlet</servlet-name>
+        <url-pattern>/get-cookies</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DeleteCookiesServlet</servlet-name>
+        <servlet-class>by.mozolevskij.pharmacy.example.learning.session_cookies.servlets.DeleteCookiesServlet
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCookiesServlet</servlet-name>
+        <url-pattern>/delete-cookies</url-pattern>
+    </servlet-mapping>
+
 </web-app>
