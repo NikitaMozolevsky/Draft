@@ -7,5 +7,5 @@ Y
 Psrc/main/java/by/mozolevskij/pharmacy/example/collection/CollectionsExample.java,d\2\d24c9bdc3d5964233b9f48f1204993374818c10b
 {
 Ksrc/main/java/by/mozolevskij/pharmacy/example/collection/MapCollection.java,2\c\2c705a30a84f544d441f16a65c8468b0d66b1dce
-O
-src/main/webapp/pages/index.jsp,6\d\6d1882855c5a6ca4ae29c49e862e7c6d94997549
+p
+@src/main/java/by/mozolevskij/pharmacy/controller/Controller.java,1\6\1667cc96b36d2a003e42d27e32d37b45b587063e
