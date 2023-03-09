@@ -29,6 +29,9 @@ public class MapCollection {
                 return o1 - o2;
             }
         });
+        Map<Integer, String> sortedMap1 = new TreeMap<>((o1, o2) -> o2 - o1);
+        Map<Integer, String> sortedMap2 = new TreeMap<>((o1, o2) -> o1 - o2); //так как стандартная реализациия
+        System.out.println(sortedMap1);
         sortedMap.put(12, "fewf12");
         sortedMap.put(14, "fewf14");
         sortedMap.put(1, "fewf1");

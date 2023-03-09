@@ -1,13 +1,12 @@
 package by.mozolevskij.pharmacy.dao.impl;
 
-import by.mozolevskij.pharmacy.command.attribute.ProductAttribute;
-import by.mozolevskij.pharmacy.entity.product.DrugType;
-import by.mozolevskij.pharmacy.entity.product.NeedPrescription;
-import by.mozolevskij.pharmacy.exception.DaoException;
-import by.mozolevskij.pharmacy.pool.ConnectionPool;
 import by.mozolevskij.pharmacy.dao.BaseDao;
 import by.mozolevskij.pharmacy.entity.AbstractEntity;
+import by.mozolevskij.pharmacy.entity.product.DrugType;
+import by.mozolevskij.pharmacy.entity.product.NeedPrescription;
 import by.mozolevskij.pharmacy.entity.product.Product;
+import by.mozolevskij.pharmacy.exception.DaoException;
+import by.mozolevskij.pharmacy.pool.ConnectionPool;
 import by.mozolevskij.pharmacy.util.ImageConverter;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
