@@ -17,9 +17,16 @@ public class RunnableBase {
             SomeThing1 someThing = new SomeThing1();
             Thread thread = new Thread(someThing);
             thread.start();
+            /**класс Thread может принимать в конструктор
+             *  Runnable, если мы реализуем классом SomeThing1
+             * интерфейс Runnable, то создав new Thread и передав туда
+             * этот класс, мы создаем поток этого класса, он запускается
+             * */
         }
     }
     static class SomeThing2 {
+
+        /** Runnable - функциональный*/
 
         public static void main(String[] args) {
             Thread thread = new Thread(new Runnable() {
