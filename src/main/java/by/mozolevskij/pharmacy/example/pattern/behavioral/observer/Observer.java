@@ -1,4 +1,4 @@
-package by.mozolevskij.pharmacy.example.pattern.observer;
+package by.mozolevskij.pharmacy.example.pattern.behavioral.observer;
 
 import java.util.List;
 

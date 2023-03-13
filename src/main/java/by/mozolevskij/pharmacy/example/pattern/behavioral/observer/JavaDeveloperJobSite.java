@@ -1,10 +1,10 @@
-package by.mozolevskij.pharmacy.example.pattern.observer;
+package by.mozolevskij.pharmacy.example.pattern.behavioral.observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class JavaDeveloperJobSite implements Observed {
-    List<String> vacancies = new ArrayList<>();
+    List<String>   vacancies   = new ArrayList<>();
     List<Observer> subscribers = new ArrayList<>();
     
     public void addVacancy(String vacancy) {

@@ -1,4 +1,4 @@
-package by.mozolevskij.pharmacy.example.pattern.producer_consumer;
+package by.mozolevskij.pharmacy.example.pattern.other.producer_consumer;
 
 import java.util.ArrayList;
 import java.util.List;

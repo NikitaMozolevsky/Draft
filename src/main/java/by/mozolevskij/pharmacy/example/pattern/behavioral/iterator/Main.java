@@ -1,4 +1,4 @@
-package by.mozolevskij.pharmacy.example.pattern.iterator;
+package by.mozolevskij.pharmacy.example.pattern.behavioral.iterator;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package by.mozolevskij.pharmacy.example.pattern.dao;
+package by.mozolevskij.pharmacy.example.pattern.other.dao;
 
 public class DaoPatternExample {
     public static void main(String[] args) {

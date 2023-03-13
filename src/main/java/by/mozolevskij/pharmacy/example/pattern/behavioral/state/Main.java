@@ -1,6 +1,4 @@
-package by.mozolevskij.pharmacy.example.pattern.state;
-
-import java.util.Locale;
+package by.mozolevskij.pharmacy.example.pattern.behavioral.state;
 
 public class Main {
     public static void main(String[] args) {

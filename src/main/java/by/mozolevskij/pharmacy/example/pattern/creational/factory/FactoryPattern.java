@@ -1,6 +1,12 @@
-package by.mozolevskij.pharmacy.example.pattern.factory;
+package by.mozolevskij.pharmacy.example.pattern.creational.factory;
 
 public class FactoryPattern {
+
+    /**
+     *
+     * 
+     *
+     * */
 
     public static void main(String[] args) {
         EnergeticFactory energeticFactory = new EnergeticFactory();

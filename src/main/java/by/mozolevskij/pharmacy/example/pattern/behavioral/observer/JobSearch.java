@@ -1,4 +1,4 @@
-package by.mozolevskij.pharmacy.example.pattern.observer;
+package by.mozolevskij.pharmacy.example.pattern.behavioral.observer;
 
 public class JobSearch {
     public static void main(String[] args) {
