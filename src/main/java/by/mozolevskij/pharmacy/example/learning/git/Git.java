@@ -13,7 +13,7 @@ public class Git {
      * Создание git на проекте:
      * git init
      * git add <files>
-     * git commit -m "name"
+     * git commit -m "name" (И ПРОСТО КОММИТ)
      * git remote add 'project on gitHub'
      * git push -u origin master
      *

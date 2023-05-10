@@ -1,9 +1,5 @@
-package by.mozolevskij.pharmacy.example.mockito;
+package by.mozolevskij.pharmacy.example.test.mockito;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
-import java.util.Date;
 import java.util.List;
 import java.util.function.Supplier;
 
@@ -17,8 +13,12 @@ public interface DataService {
 
     List<String> getData();
 
+    List<String> getAllData();
+
     List<String> getDataListByIds(List<String> idList);
 
     List<String> getDataByRequest(DataSearchRequest request);
+
+    String getDataItemById(String string);
 }
 

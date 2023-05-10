@@ -10,6 +10,7 @@ public class LockCondition {
         Producer producer = new Producer(store);
         Consumer consumer = new Consumer(store);
         new Thread(producer).start();
+        new Thread(producer).run();
         new Thread(consumer).start();
     }
 }

@@ -1,7 +1,1 @@
 mock-maker-inline
-
-пытаюсь создать mock для final класса или mock-экземпляр enum либо переопределить поведение final метода.
-
-файл test/resources/mockito-extensions/org.mockito.plugins.MockMaker и вписать в него строчку:
-
-mock-maker-inline

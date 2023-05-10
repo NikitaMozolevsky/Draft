@@ -1,4 +1,4 @@
-package by.mozolevskij.pharmacy.example.mockito;
+package by.mozolevskij.pharmacy.example.test.mockito;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
