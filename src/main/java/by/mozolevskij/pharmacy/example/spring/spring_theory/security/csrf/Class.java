@@ -1,4 +1,4 @@
-package by.mozolevskij.pharmacy.example.learning.spring_theory.security.csrf;
+package by.mozolevskij.pharmacy.example.spring.spring_theory.security.csrf;
 
 public class Class {
 

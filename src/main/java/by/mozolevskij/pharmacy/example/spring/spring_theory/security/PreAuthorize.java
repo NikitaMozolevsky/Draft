@@ -1,4 +1,4 @@
-package by.mozolevskij.pharmacy.example.learning.spring_theory.security;
+package by.mozolevskij.pharmacy.example.spring.spring_theory.security;
 
 public class PreAuthorize {
 

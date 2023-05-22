@@ -1,4 +1,4 @@
-package by.mozolevskij.pharmacy.example.learning.spring_theory;
+package by.mozolevskij.pharmacy.example.spring.spring_theory;
 
 public class SpringBoot {
 
