@@ -49,6 +49,8 @@ public class Class {
      *
      * 'exit' - выход из cmd
      *
+     * 'mkdir folder_name' - создать папку в текущей директории
+     *
      * */
 
 }

@@ -1,6 +1,6 @@
 package by.mozolevskij.pharmacy.example.learning.docker;
 
-public class BasicComponents1 {
+public class ABasicComponents1 {
 
     /*
     * 1. Docker - сервис для запуска приложений в контейнерах.
