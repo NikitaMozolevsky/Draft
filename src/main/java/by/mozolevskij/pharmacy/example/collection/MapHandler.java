@@ -38,6 +38,7 @@ public class MapHandler {
         for(Map.Entry<Integer, String> entry : map.entrySet()) {
             Integer key = entry.getKey();
             String value = entry.getValue();
+            System.out.println(key + " : " + value);
         }
     }
 
@@ -76,6 +77,28 @@ public class MapHandler {
         Map<Integer, String> stringMap = map.entrySet().stream()
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 
+
+
+    }
+
+    public class Main {
+        public static void main(String[] args) {
+            // Создаем пример Map
+            Map<String, Integer> stringMap = new HashMap<>();
+            stringMap.put("one", 1);
+            stringMap.put("three", 3);
+            stringMap.put("four", 4);
+            stringMap.put("two", 2);
+
+            // Сортировка Map по убыванию значений
+            Map<String, Integer> sortedMap = stringMap.entrySet()
+                    .stream()
+                    .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
+                    .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
+
+            // Вывод отсортированной Map
+            sortedMap.forEach((key, value) -> System.out.println(key + ": " + value));
+        }
     }
 
 }

@@ -21,6 +21,10 @@ public class MapCollection {
                 return o1.getKey() - o2.getKey();
             }
         });
+
+        Collections.sort(list, (Map.Entry<Integer, String> o1, Map.Entry<Integer, String> o2)
+                -> o1.getKey() - o2.getKey());
+
         /*Collections.sort(list, (o1, o2) -> o1.getKey() - o2.getKey());*/
         /*System.out.println(list);*/
         SortedMap<Integer, String> sortedMap = new TreeMap<>(new Comparator<Integer>() {

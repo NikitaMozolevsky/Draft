@@ -6,15 +6,15 @@ public class CollectionsExample {
     public static void main(String[] args) {
         CollectionsExample collectionsExample = new CollectionsExample();
         List<Integer> list = Arrays.asList(2, 4, 0, 6, 5, 1);
-        System.out.println(collectionsExample.find(list, 6));
+        System.out.println(collectionsExample.sort(list));
     }
 
-    public Map<Integer, Integer> find(List<Integer> arrayList, int number) {
+    public Map<Integer, Integer> sort(List<Integer> arrayList) {
         List<Integer> list = new ArrayList<>(arrayList);
         Map<Integer, Integer> integerIntegerMap = new HashMap<>();
         Collections.sort(arrayList);
         arrayList.remove(1);
-    return integerIntegerMap;
+        return integerIntegerMap;
     }
 
     public static Integer searchValue(HashMap<Integer, Integer> map, Integer value) {

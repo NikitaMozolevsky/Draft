@@ -46,8 +46,22 @@ public class DockerPart3 {
      * ()cd /usr/share/nginx/html() - переход в нужную папку
      * ()cat index.html()  - покажет в консоли файл index.html внутри контейнера
      *
-     * 22.
+     * 22.()docker run -it*вход внутрь контейнера терминалом* --rm*удаление после exit
+     * из остановленных контейнеров* busybox()
      *
+     * 23. Разбиение команды на строки
+      ()docker run `
+      --name my_nginx `
+      -v ${PWD}:/usr/share/nginx/html `
+      -p 8080:80 `
+      -d `
+      --rm `
+      nginx() - (ё)
+     *
+     * ()docker container inspect d77a4678ad2e() - Вывод привязки томов в контейнере
+     * и другой информации.
+     *
+     * 24.
      * */
 
 }

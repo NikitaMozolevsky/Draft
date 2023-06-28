@@ -1,0 +1,9 @@
+
+СТРУКТУРА
+namespace ForDelete - внутри несколько классов
+
+namespace -> Properties -> AssemblyInfo - информация о сборке
+
+namespace -> Reference - видимо, библиотеки
+namespace -> Reference -> AppConfig - конфигурационный файл, храниться доп. информация
+при создании сложных проектов
