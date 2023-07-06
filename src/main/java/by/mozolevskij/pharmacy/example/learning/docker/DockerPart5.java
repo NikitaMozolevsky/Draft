@@ -56,6 +56,9 @@ public class DockerPart5 {
      * 47.time-app - папка с приложением: api - back, front - front
      *
      * 48.Frontend
+     * На этапе создания образа для frontend приложения мы должны будем установить зависимости
+     * внутри образа, они устанавливаются на основании package.json и package-lock.json
+     * файлов
      *
      * 49.Backend
      *
